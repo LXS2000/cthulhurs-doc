@@ -1,0 +1,47 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "CthulhuRs-Server"
+  text: "A high performance HTTP proxy server"
+  tagline: Lightweight, fast, customizable！！！
+  image:
+      src: /logo.png
+      alt: CthulhuRs
+  actions:
+    - theme: brand
+      text: Quick start
+      link: /en/guide/cmd
+    - theme: alt
+      text: Download
+      link: /en/guide/download
+
+features:
+  - title: Support for http/https, websocket protocols
+    icon:
+        src: /http.png
+    details: Any request of the above protocols forwarded to the CthulhuRs server will be monitored
+  - title: Private deployment, protect privacy data
+    icon:
+      src: /privacy.png
+    details: The CthulhuRs server is deployed on your own device, it will not upload your network information to third parties, all data will be disposed of by yourself
+  - title: Lightweight & High Performance
+    icon:
+      src: /performance.png
+    details: CthulhuRs server uses the high-performance language rust for development, built-in lightweight quickjs script execution engine, use without pressure
+  - title: Web, network fingerprint modification
+    icon:
+      src: /fingerprint.png
+    details: The CthulhuRs server supports disguising its own network fingerprint information, such as ja3, h2 fingerprint, IP address, you can set the random number of ja3, h2 fingerprint in the script or set the upstream proxy for each request.
+      The built-in CthulhuJs plugin supports modifying language, time zone, ua, screen, gpu information, canvas, audio, webgl, webgpu, canvasFonts, cssFonts, plugin, webrtc and other browser fingerprints
+  - title: Embedded QuickJS script engine
+    icon:
+      src: /js.png
+    details: QuickJS is a small and embeddable Javascript engine, it supports the ES2020 specification, including modules, asynchronous generators and proxies. It optionally supports mathematical extensions, such as big integers (BigInt), big floating numbers (BigFloat) and operator overloading
+  - title: Cross-platform & Cross-device
+    icon:
+      src: /crossplat.png
+    details: As long as your device adds the proxy of the CthulhuRs server, you can use its functions on the browser of any device without installing any software or extensions
+---
+
