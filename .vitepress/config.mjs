@@ -8,7 +8,7 @@ export default defineConfig({
             'link', {rel: 'icon', href: '/favicon.ico'}
         ]
     ],
-    base: "/",
+    base: "/cthulhurs-doc/dist/",
     description: "CthulhuRs-Server a high performance HTTP proxy server",
     locales: {
         root: {

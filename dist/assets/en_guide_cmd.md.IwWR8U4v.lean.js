@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,V as t}from"./chunks/framework.--NMbU3Q.js";const u=JSON.parse('{"title":"Run","description":"","frontmatter":{},"headers":[],"relativePath":"en/guide/cmd.md","filePath":"en/guide/cmd.md"}'),e={name:"en/guide/cmd.md"},n=t("",13),l=[n];function h(p,r,k,c,o,d){return a(),i("div",null,l)}const F=s(e,[["render",h]]);export{u as __pageData,F as default};
