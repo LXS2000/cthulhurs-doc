@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,V as s}from"./chunks/framework.--NMbU3Q.js";const k=JSON.parse('{"title":"服务器下载","description":"","frontmatter":{},"headers":[],"relativePath":"zh/guide/下载.md","filePath":"zh/guide/下载.md"}'),l={name:"zh/guide/下载.md"},i=s("",20),r=[i];function n(o,h,d,c,u,p){return a(),t("div",null,r)}const b=e(l,[["render",n]]);export{k as __pageData,b as default};
