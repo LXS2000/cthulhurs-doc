@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,V as t}from"./chunks/framework.qijW_vQ_.js";const F=JSON.parse('{"title":"运行","description":"","frontmatter":{},"headers":[],"relativePath":"zh/guide/命令行.md","filePath":"zh/guide/命令行.md"}'),h={name:"zh/guide/命令行.md"},l=t("",13),e=[l];function n(p,k,d,r,c,g){return a(),i("div",null,e)}const u=s(h,[["render",n]]);export{F as __pageData,u as default};
